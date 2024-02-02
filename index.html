@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name ="viewport"
+   content ="width =device-width,initial scale=1.0">
+   <title> My Portfolio</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+   <style>
+     *{
+       padding: 0;
+       margin: 0;
+   }
+    body{
+        background-color: white;
+        color: green;
+        font-family:'Poppins',Sans-Serif;
+    } 
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+        background-color: black;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 15px;
+    }
+    nav ul li a:hover{
+        color: red;
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+    nav ul li a{
+        text-decoration:navy;
+        color: green;
+    }
+    nav ul li a:hover{
+        color:red;
+        font-size: 1.2rem;
+    }
+    .firstSection{
+        display:flex;
+        justify-content: space-around;
+        margin: 40px 0;
+    }
+    .firstSection > div{
+        width: 40%;
+    }
+    .leftSection{
+        background-color: black;
+        color: yellow;
+        font-size: 2rem;
+        padding: 10px;
+    }
+    .purple{
+        color:red;
+    }
+    .blue{
+        color:blueviolet;
+    }
+    #element{
+        color:blue
+    }
+    .SecondSection{
+        background-color: black;
+        max-width: 80vw;
+        margin: auto;
+        height: 50vh;
+    }
+    .SecondSection h1{
+        font-size: 2rem;
+    }
+    .SecondSection .box{
+        background-color: black;
+        width: 80vw;
+        height: 4px;
+        margin: 56px 0;
+        display: flex;
+    }
+    .SecondSection .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: black;
+        margin: 0 100px;
+    } 
+    .ThirdSection{
+        background-color: black;
+        font-size: 2rem;
+        margin: 56px 0;
+        text-align: center;
+        text-decoration:underline;
+    } 
+    .ThirdSection:hover.fa-whtsapp{
+        color: green;
+    }
+    .ThirdSection.fa-instagram{
+        color: red;
+    }
+    .ThirdSection.fa-linkedin{
+        color: royalblue;
+    }
+    .ThirdSection.fa-github{
+        color: blueviolet;
+    }
+    
+
+
+   </style>
+   <head>
+   <body>
+    <header>
+        <nav>
+            <div class ="left"> My Portfolio</div>
+            <div class ="right">
+                <ul>
+                <li><a href ="/">Home</a></li>
+                <li><a href ="/">About</a></li>
+                <li><a href = "/">Contact Me</a></li>
+                <li><a href = "/">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+        <section class ="firstSection">
+        <div class="leftSection"> 
+            Hi, My name is <span class ="purple">Ashutosh </span>
+            <div> and I am a  <span id ="element"></span>, </div>
+            <span id ="element"> Web Developer</span>
+            </div>
+        <div class="rightSection"> 
+        <img src="pngegg.png"width="600" height="250">
+        </div>
+        
+        </section>
+        <section class="SecondSection">
+        <h1> <span class ="blue">Academic Background</span></h1>
+        <br>
+        <p> Passed class 10th with <span class ="purple">97%</span> in 2021. <br> <br>
+            Passed class 12th with <span class ="purple">80%</span> in 2023. <br> <br>
+            Cleared JEE MAINS with an AIR of <span class ="purple">5942.</span> <br> <br>
+            Cleared JEE ADV with an AIR of <span class ="purple">9712.</span> <br> <br> </p>
+            Pursuing BTech in <span class ="purple">Information Technology and Buisness <br>Informatics(IT-BI)</span> 
+            from <span class ="purple"> IIIT Prayagraj</span>.<br>
+            </p>
+        </section>
+        <section class="ThirdSection">
+        <h1><span class = "purple"> Contact Me </span></h1>
+        <br>
+        <p> <script src="https://kit.fontawesome.com/ecca378e58.js" crossorigin="anonymous"></script>
+            <div class ="Social links">
+                <a href="#" target = "_blank"></a>
+                <i class="fa-brands fa-square-whatsapp"></i> 9921030315 <br>
+                <br>
+                <a href="#" target = "_blank"></a>
+                <i class="fa-brands fa-square-instagram"></i> Ashutosh  Nalamwar <br>
+                <br>
+                <a href="#" target = "_blank"></a>
+                <i class="fa-brands fa-linkedin"></i> Ashutosh  Nalamwar<br>
+                <br>
+                <a href="#" target = "_blank"></a>
+                <i class="fa-brands fa-github-alt"></i> Ashutosh  Nalamwar <br>
+                
+
+            </div>
+
+        </p>
+        </section>
+        
+            
+        </div>
+        </section>
+        </main>
+    </header> 
+       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+       <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer','Web Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+   </body>
+   </head>
+
